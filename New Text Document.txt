@@ -1,0 +1,14 @@
+In the predict salary module our primary aim is to estimate the salary of a employee given his expirence time.
+Here we are ustilizing the linear regression model and for implementing it we have to import
+sklearn libraries(.linear_model import LinearRegression and .modelselect  traintestsplit)
+
+Here we take the values from the expirience column as input data and corresponding values from the
+salary column as target.
+
+We split the input and target values using train_test_split method and get values for
+ x_train and y_train variables
+
+ We run fit operation with both as parameters.
+
+Then we ask for  a user provided experience year value through an entry widget and obtain the
+salary value using predict method
